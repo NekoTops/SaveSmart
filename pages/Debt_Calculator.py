@@ -4,7 +4,9 @@ from streamlit_extras.switch_page_button import switch_page
 
 
 st.set_page_config(initial_sidebar_state="collapsed")
-st.title("Credit Cards")
+st.title("Debt Calculator")
 st.write("Coming Soon!")
 if st.button("Home"):
    switch_page("Home")
+if st.button("Return to Debt Lesson"):
+   switch_page("Debt")
